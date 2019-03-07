@@ -27,4 +27,11 @@ VPC: Barcely Bank Reference: 33094214
 	 
 	 VPN: Virtual Private Network:
 				> You have Primary connection and Secondary Connection, If the Primary traffic goes down low we an use Secondary Connection. (VPC works with Internet)
-				> 
+				
+
+
+#!/bin/sh
+echo 1 > /proc/sys/net/ipv4/ip_forward
+echo 0 > /proc/sys/net/ipv4/conf/eth0/send_redirects 
+/sbin/iptables -t nat -A POSTROUTING -o ethO -s 0.0.0.0/0 -j MASQUERADE 
+/sbin/iptables-save > /etc/sysconfig/iptables
