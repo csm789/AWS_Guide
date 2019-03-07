@@ -1,0 +1,17 @@
+
+	EC2:	
+	
+	Elastic Network Interfaces- You can Add one or more Secondary Ips and one Primary IPs.
+			> Creating instance Amazon 2008 HVM Advance  options the below code
+				// #!bin/sh
+					yum -y install httpd php
+					chkconfig httpd one
+					/etc/init.d/httpd start
+				//
+					sudo su -
+					chkconfig status httpd
+					chkconfig --list httpd
+				//
+			> Windows 2016 wordpress Password: NdG$7oZwU8ZYM8fkR)S-?Par5jK8;5&y Udername: Administrator   &*F3(xyIL7%yX7E*hI543gdsfg
+				
+			  

@@ -1,0 +1,27 @@
+	VPC: Barcely Bank Reference: 33094214
+		VPC: https://www.qwiklabs.com/focuses/7317
+		EC2: http://findoutthat.com/aws-ec2-shared-dedicated-instance-dedicated-host-difference/
+		Trail , Cloudwatch, teusted advisor, amazon guard duty -ec2 , aws inspector , systems manager
+		EC2: https://aws.amazon.com/premiumsupport/knowledge-center/start-stop-lambda-cloudwatch/
+		https://aws.amazon.com/blogs/compute/automating-amazon-ebs-snapshot-management-with-aws-step-functions-and-amazon-cloudwatch-events/
+		https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-creating-volume.html
+		https://www.qwiklabs=catalog.com/focuses/278?parent
+ 
+	IPV4 32 bit
+	Network: 2*24 = 16.77.72/16	Host: 2* 8 -2 = 254.00.00/8
+
+	Company Level VPC: In Company you will have certain environment like 1. Test 2. DEV 3. UAT 4. ( You can not modify or change the region or VPC)
+				> Do we have Dedicate Tendency (This is something like to Purchse)
+	Created VPC:
+				> Public Windows Service 2008 user name: Administrator password: Moi?G6aWFh  private password: b9LX!8wR-PB to login in Private destop Windows: Go to Searchbar and search mstsc and give the Credentials.
+	Security Groups: 3 types
+				> Security Groups
+				> NACL Network Access Control Lists
+				> Flow logs
+	VPC Pering: Modifing the VPC Peering is not really encorage in real time experience in company, you should make sure with higher Management.
+				> You need to Modifiy Routte Propaganda.
+				> VPC peering is used mostly to communicate multiple Data Servers. 
+	 
+	 VPN: Virtual Private Network:
+				> You have Primary connection and Secondary Connection, If the Primary traffic goes down low we an use Secondary Connection. (VPC works with Internet)
+				> 
